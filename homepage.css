@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+   
 }
 
 .container1{
@@ -75,14 +76,13 @@ a:not(.icon-link):hover{
 
 
 
-
 #banner-section{
     height: 100%;
     
 }
 
 .banner{
-    background-image: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.5)),url(pic14.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.5)),url(pic14.png);
     background-position: center top;
     box-sizing: border-box;
     background-size:cover;
@@ -98,9 +98,14 @@ a:not(.icon-link):hover{
 }
 
 main{
-    
-    height: 100vh;
     width: 100%;
+    /* position: relative; */
+}
+
+#header-section{
+  font-size: 20px;
+  justify-content: left;
+  box-shadow: 5px 5px 15px black;
 }
 
 /* card code */
@@ -114,8 +119,9 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 43vh;
+    height: 48vh;
     align-items: center;
+    box-shadow: 5px 5px 19px grey;
 }
 
 .container2{
@@ -124,8 +130,8 @@ section{
 }
 
 .container2:hover .intro {
-    transform: translateY(3%);
-    transition: transform 0.5s ease;
+    /* transform: translateY(-3%); */
+    transition: 0.8s ease;
     opacity: 1;
   }
 
@@ -134,6 +140,7 @@ section{
     margin: 35px;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
+    border-radius: 3px;
 }
 
 img{
@@ -143,15 +150,16 @@ img{
 }
 
 .intro{
-    height: 200px;
-    width: 295px;
-    padding: 15px;
+    height: 178px;
+    width: 297px;
+    padding: 14px;
     box-sizing: border-box;
     position: absolute;
+    border-radius: 3px;
     background: rgb(27, 27, 27, 0.5);
     color: white;
-    transform: translateY(-100%);
-    opacity: 0;
+    transform: translateY(-102%);
+    opacity:0;
 }
 
  .card:hover{
@@ -171,7 +179,7 @@ img{
     padding: 20px 0;
   }
   
-  .container {
+  .footer1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -186,7 +194,7 @@ img{
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color:black;
+    background-color: #333;
     color: white;
     text-decoration: none;
     border-radius: 50px;
